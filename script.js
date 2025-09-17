@@ -63,6 +63,11 @@ function analyzeImage() {
       t.textContent = c;
       div.appendChild(t);
       colorPaletteBox.appendChild(div);
+      div.addEventListener("click", e => {
+        e.preventDefault();
+        navigator.clipboard.writeText( e.target.textContent );
+        showToast( "Color copied to clipboard." );
+      })
     });
 
     resultSection.style.display = 'block';
