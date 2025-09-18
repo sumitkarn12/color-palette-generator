@@ -4,13 +4,25 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Color Palette Generator</title>
+
+	<title>Color Palette Generator from Image | Create Your Perfect Palette</title>
+	<meta name="description"
+		content="Extract beautiful color palettes from any image! Upload a photo and get a stunning palette of colors to use for your design projects, artwork, and more.">
+	<meta property="og:title" content="Color Palette Generator from Image | Create Your Perfect Palette">
+	<meta property="og:description"
+		content="Upload an image and instantly get a beautiful, coordinated color palette for your design projects.">
+	<meta property="og:url" content="https://palette.idkey.in/">
+	<meta property="og:type" content="website">
+
+<meta property="og:image"
+	content="https://og.tailgraph.com/og?title=Color%20Palette%20Generator&titleTailwind=text-4xl%20font-bold%20text-white&text=Extract%20beautiful%20color%20palettes%20from%20any%20image%20for%20your%20design%20projects.&textTailwind=text-xl%20text-gray-100%20mt-2&bgTailwind=bg-gradient-to-tr%20from-rose-500%20to-fuchsia-500" />
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 
-	<link rel="shortcut icon" href="https://age-calculator.idkey.in/favicon.svg" type="image/x-icon" />
+	<link rel="shortcut icon" href="https://age-calculator.idkey.in/favicon.svg" type="image/x-icon">
 	<link rel="stylesheet" href="https://age-calculator.idkey.in/core.css" />
 
 	<link rel="stylesheet" type="text/css" href="/style.css" />
@@ -25,29 +37,29 @@
 
 			<div class="input-section">
 				<input type="file" id="image-upload" accept="image/*" />
+      </div>
+
+				<div class="image-preview-container center drop-message" id="image-preview-container">
+					<img id="image-preview" src="#" alt="Image Preview" />
+      </div>
+
+					<div class="result-section" id="result-section">
+						<div id="color-palette-box" class="color-palette-box center"></div>
+					</div>
+				</div>
 			</div>
 
-			<div class="image-preview-container center drop-message" id="image-preview-container">
-				<img id="image-preview" src="#" alt="Image Preview" />
+			<div class="center">
+				<div class="links">
+					<a href="http://age-calculator.idkey.in/">Age and Date Calculator</a>
+					<a href="https://dialogue.idkey.in/">Movie Dialogues</a>
+					<a href="http://record.idkey.in/">Screen Recorder</a>
+					<a href="https://digipin.idkey.in/">DIGIPIN</a>
+					<a href="https://pass.idkey.in/">Secured Password Generator</a>
+					<a href="https://ip.idkey.in/">What's My IP Address?</a>
+					<a href="http://palette.idkey.in/">Color Palette Generator from Image</a>
+				</div>
 			</div>
-
-			<div class="result-section" id="result-section">
-				<div id="color-palette-box" class="color-palette-box center"></div>
-			</div>
-		</div>
-	</div>
-
-	<div class="center">
-		<div class="links">
-			<a href="http://age-calculator.idkey.in/">Age and Date Calculator</a>
-			<a href="https://dialogue.idkey.in/">Movie Dialogues</a>
-			<a href="http://record.idkey.in/">Screen Recorder</a>
-			<a href="https://digipin.idkey.in/">DIGIPIN</a>
-			<a href="https://pass.idkey.in/">Secured Password Generator</a>
-			<a href="https://ip.idkey.in/">What's My IP Address?</a>
-			<a href="http://palette.idkey.in/">Color Palette Generator from Image</a>
-		</div>
-	</div>
 
 </body>
 <script type="text/javascript" src="/script.js"></script>
